@@ -5,7 +5,9 @@ import java.util.Scanner;
 public class Tournament {
 
 
-        //herencia?
+        //herencia? NO
+
+        //Agregar ENUMs
 
         public static void main ( String[] args)
         {
@@ -70,7 +72,7 @@ public class Tournament {
             List<Integer> winner_list= ( point_winner == 1 )? points_p1 : points_p2;
             List<Integer> loser_list = ( point_winner == 1 )? points_p1 : points_p2;
             switch (match){
-                case 1: winner_list.add(15); loser_list.add(0);
+                case 1: {winner_list.add(15); loser_list.add(0);}
                 case 2: winner_list.add(30);loser_list.add(0);
                 case 3: winner_list.add(45); loser_list.add(0);
                 case 4:
